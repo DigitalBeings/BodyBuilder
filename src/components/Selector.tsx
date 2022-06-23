@@ -100,7 +100,7 @@ export default function Selector(props) {
   React.useEffect(() => {
     if (!scene) return
     async function _get() {
-      const categories = ["hair", "tops", "legs", "shoes"]
+      const categories = ["hair", "tops", "bottoms", "shoes", "body", ]
       if (!loaded) {
         setTempInfo("2")
         if (scene && templateInfo) {
